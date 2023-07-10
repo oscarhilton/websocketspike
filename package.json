@@ -1,0 +1,36 @@
+{
+  "name": "e",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next build && NODE_ENV=production node server.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@replit/database": "^2.0.4",
+    "@teamwork/websocket-json-stream": "^2.0.0",
+    "express": "^4.18.2",
+    "jointjs": "^3.7.4",
+    "jsdom": "^22.1.0",
+    "lodash": "^4.17.21",
+    "next": "^12.3.4",
+    "puppeteer": "^20.8.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sharedb": "^4.0.0",
+    "sharedb-mongo": "^4.0.0",
+    "socket.io": "^4.7.1",
+    "socket.io-client": "^4.7.1",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "@types/react": "^18.2.14",
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.3",
+    "typescript": "^5.1.6"
+  }
+}
